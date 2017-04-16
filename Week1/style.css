@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+
+
+@font-face {
+    font-family: SystemaEncephale;
+    src: url(SystemaEncephale.ttf);
+}
+
+body {
+	background-color: #071112;
+}
+
+header {
+	font-size: 4rem;
+	font-family: SystemaEncephale;
+	color: #DFE6E1;
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	text-align: center;
+}
+
+main {
+	color: #DFE6E1;
+	font-family: Inconsolata, Arial;
+	display: flex;
+	flex:auto;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+
+img {
+	display: flex;
+	width: 100%;
+	height: auto; 
+	align-self: center;
+	padding-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 20rem) {
+	h1 {
+		font-size: 2rem;
+	}
+}
+
+
+
+@media screen and (min-width: 48rem) {
+	h1 {
+		font-size: 3rem;
+	}
+	p {
+		font-size: 1.25rem;
+	}
+
+	img {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+}
+
+@media screen and (min-width: 64rem) {
+	h1 {
+		font-size: 4rem;
+	}
+	p {
+		font-size: 1.5rem;
+
+	}
+}
