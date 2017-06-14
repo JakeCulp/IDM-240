@@ -1,0 +1,14 @@
+$(function() {
+    $(".speaker_on").click(function(e) {
+        e.preventDefault();
+
+        var song = $('audio')[0]
+        if (song.paused){
+            song.play();
+            document.getElementById("mute").src = "speaker_on.svg";
+        }else{
+            song.pause();
+            document.getElementById("mute").src = "speaker_off.svg";
+        }
+        });
+});
