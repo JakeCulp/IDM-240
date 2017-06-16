@@ -167,20 +167,33 @@ svg:hover #inner-eye {
 
 @keyframes colorchange
     {
-      0%   {fill: #59F8E8;}
-      25%  {fill: #4EFFEF;}
-      50%  {fill: #B7D5F1;}
-      75%  {fill: #33658A;}
-      100% {fill: #59F8E8;}
+      0%   {fill: #DFE6E1;}
+      10%  {fill: #61D095;}
+      20%  {fill: #48BF84;}
+      30%  {fill: #439775;}
+      40% {fill: #2A4747;}
+      50% {fill: #DDD8B8;}
+      60% {fill: #B3CBB9;}
+      70% {fill: #84A9C0;}
+      80% {fill: #6A66A3;}
+      90% {fill: #49306B;}
+      100% {fill: #DFE6E1;}
     }
 
     @-webkit-keyframes colorchange
     {
-      0%   {fill: #59F8E8;}
-      25%  {fill: #4EFFEF;}
-      50%  {fill: #B7D5F1;}
-      75%  {fill: #33658A;}
-      100% {fill: #59F8E8;}
+      0%   {fill: #DFE6E1;}
+      10%  {fill: #61D095;}
+      20%  {fill: #48BF84;}
+      30%  {fill: #439775;}
+      40% {fill: #2A4747;}
+      50% {fill: #DDD8B8;}
+      60% {fill: #B3CBB9;}
+      70% {fill: #84A9C0;}
+      80% {fill: #6A66A3;}
+      90% {fill: #49306B;}
+      100% {fill: #DFE6E1;}
+
     }
 
     .geo {
@@ -188,7 +201,7 @@ svg:hover #inner-eye {
     }
 
     #geometry {
-      animation: colorchange 30s ease-in-out infinite;
+      animation: colorchange 20s ease-in-out infinite;
     }
 
 
